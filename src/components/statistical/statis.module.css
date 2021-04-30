@@ -1,0 +1,35 @@
+.stat {
+  width: 250px;
+  border: 2px solid #ccc3c3;
+  border-radius: 9px;
+  margin: 30px auto;
+  text-align: center;
+  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+}
+.title {
+  font-size: 22px;
+  color: rgb(201, 132, 132);
+}
+.list {
+  list-style: none;
+  display: flex;
+  margin: 0px;
+  width: 251px;
+  padding: 0px;
+}
+.item {
+  display: flex;
+  justify-content: center;
+  color: rgb(224, 185, 159);
+}
+.list_item {
+  background: rgb(226, 226, 147);
+  width: 100%;
+  border: 1px solid rgb(202, 133, 133);
+  border-radius: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.prow {
+  color: rgb(180, 238, 81);
+}

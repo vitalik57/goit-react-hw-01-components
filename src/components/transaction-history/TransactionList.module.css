@@ -1,0 +1,22 @@
+.transa {
+  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+  width: 500px;
+  border: 2px solid #5b488f;
+  border-radius: 9px;
+  margin: 30px auto;
+  text-align: center;
+}
+.item {
+  border: 1px solid rgb(38, 77, 109);
+  background: beige;
+  border-radius: 5px;
+  color: rgb(83, 71, 134);
+}
+.list {
+  background-color: rgb(122, 106, 72);
+  border-radius: 5px;
+  color: rgb(22, 18, 78);
+}
+.list_item {
+  border: 2px solid #9e2f2f;
+}
