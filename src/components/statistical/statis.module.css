@@ -25,11 +25,11 @@
 .list_item {
   background: rgb(226, 226, 147);
   width: 100%;
-  border: 1px solid rgb(202, 133, 133);
+  border: 1px solid rgb(54, 0, 0);
   border-radius: 10px;
   padding-bottom: 5px;
   padding-top: 5px;
 }
 .prow {
-  color: rgb(180, 238, 81);
+  color: rgb(32, 46, 7);
 }

@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import styles from "./TransactionList.module.css";
 
-const Transaction = ({ trans }) => {
+const TransactionHistory = ({ trans }) => {
   return (
     <table className={styles.transa}>
       <thead>
@@ -24,10 +24,10 @@ const Transaction = ({ trans }) => {
     </table>
   );
 };
-Transaction.prototype = {
+TransactionHistory.prototype = {
   type: PropTypes.string.isRequired,
   amount: PropTypes.string.isRequired,
   currency: PropTypes.string.isRequired
 };
 
-export default Transaction;
+export default TransactionHistory;
