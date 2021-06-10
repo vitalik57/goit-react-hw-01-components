@@ -18,7 +18,6 @@ const Statistics = ({ stats }) => {
   );
 };
 Statistics.propTypes = {
-  label: PropTypes.string.isRequired,
-  percentage: PropTypes.number.isRequired
+  stats: PropTypes.object.isRequired
 };
 export default Statistics;
