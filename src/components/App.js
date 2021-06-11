@@ -12,7 +12,7 @@ const App = () => {
   return (
     <div>
       <Profile {...user} />
-      <Statistics stats={stats} />
+      <Statistics title="UPLOAD STATS" stats={stats} />
       <FriendList friends={friends} />
       <TransactionHistory items={transacton} />
     </div>
